@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 
 function eventListeners(){
-    const mobileMenu = docuemnt.querySelector('.mobile-menu');
+    const mobileMenu = document.querySelector('.mobile-menu');
 
     mobileMenu.addEventListener('click', navegacionResponsive);
 }
